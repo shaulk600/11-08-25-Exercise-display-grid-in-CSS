@@ -1,1 +1,18 @@
+body {
+    width: 100vw;
+    height: 100vh;
+}
 
+#menu_view_song {
+    border: 1px solid black;
+    width: 40%;
+    display: grid;
+    /* מיישר את ציר ה-X */
+    justify-self: center;
+    
+
+
+
+
+
+}
