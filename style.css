@@ -1,1 +1,152 @@
+body {
+    margin: 0;
+    padding: 0;
 
+    width: 100vw;
+    height: 100vh;
+    border: 1px solid rgb(13, 14, 14);
+}
+
+#menu_view_song {
+    width: 50%;
+    height: 100%;
+
+    border: 1px solid rgb(16, 240, 248);
+    background-color: rgba(25, 32, 56, 1);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#grid_top_head {
+    border: 1px solid rgb(13, 14, 14);
+    display: grid;
+    grid-template-rows: 100%;
+    /* grid-template-areas: ". img ."; */
+    grid-template-columns: 95%
+}
+
+#grid_top_head>#img_top_head {
+    grid-area: img_top_head;
+}
+
+
+#middle>#image_songing>#image {
+    width: 250px;
+    height: 250px;
+}
+
+
+
+
+#show_selection_choice>#show {
+    width: 343px;
+    height: 96px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.item_song {
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-areas:
+        ""
+    ;
+}
+
+/*
+#menu_view_song {
+    border: 1px solid black;
+    width: 50%;
+    background-color: rgba(25, 32, 56, 1);
+    /* מיישר את ציר ה-X */
+/* justify-self: center; */
+/*
+    display: grid;
+    grid-template-areas:
+        " . head .  "
+    ;
+}
+#top_head{
+    justify-self: center
+    /* display: flex;
+    align-items: center;
+    width: 100%;
+    height: 50px; 
+}
+#img_top_head {
+    grid-area: head;
+
+    width: 100%;
+    /* text-align: center;
+     align-self: center; */
+/* height: 45px; *
+} 
+*/
+
+/* <style> */
+/*
+.item1 {
+    grid-area: top_head;
+}
+
+.item2 {
+    grid-area: head;
+}
+
+.item3 {
+    grid-area: middle;
+}
+
+.item4 {
+    grid-area: more_songs;
+}
+
+.item5 {
+    grid-area: menu_display;
+}
+*/
+
+
+
+/* exemple */
+/*
+.grid-container {
+    display: grid;
+    grid-template-areas:
+        'top_head top_head top_head top_head'
+        'head       head     head      head '
+        'middle middle middle middle'
+        'middle middle middle middle'
+        'middle middle middle middle'
+        'middle middle middle middle'
+        'more_songs more_songs more_songs more_songs'
+        'more_songs more_songs more_songs more_songs'
+        'more_songs more_songs more_songs more_songs'
+        'more_songs more_songs more_songs more_songs'
+        'menu_display menu_display menu_display menu_display'
+    grid-gap: 10px;
+    background-color: #2196F3;
+    padding: 10px;
+}
+
+.grid-container>div {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+}
+
+</style>
+*/
